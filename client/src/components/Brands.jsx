@@ -29,10 +29,10 @@ export default function Brands() {
           <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">
             Marcas y Suministros
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
             Tu Ventaja Competitiva
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto">
             La combinación de alianzas globales, logística optimizada e inventario propio nos permite responder con rapidez ante cualquier necesidad operativa.
           </p>
         </div>
@@ -43,13 +43,13 @@ export default function Brands() {
             return (
               <div
                 key={p.title}
-                className="bg-navy-800/40 border border-white/5 rounded-2xl p-8 text-center hover:border-brand-orange/30 transition-colors"
+                className="bg-white/50 border border-orange-100 rounded-2xl p-8 text-center hover:border-brand-orange/40 transition-colors"
               >
                 <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brand-orange/10 border border-brand-orange/20 text-brand-orange mb-6">
                   <Icon size={24} />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3">{p.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{p.description}</p>
+                <h3 className="text-lg font-bold text-gray-800 mb-3">{p.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{p.description}</p>
               </div>
             )
           })}
@@ -58,10 +58,10 @@ export default function Brands() {
         {/* CTA strip */}
         <div className="rounded-2xl bg-gradient-to-r from-brand-orange/20 via-brand-orange/10 to-transparent border border-brand-orange/30 p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h3 className="text-xl font-bold text-white mb-2">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">
               ¿Necesita un equipo o repuesto crítico?
             </h3>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-600 text-sm">
               Contáctenos y le confirmamos disponibilidad y tiempo de entrega en menos de 24 horas.
             </p>
           </div>

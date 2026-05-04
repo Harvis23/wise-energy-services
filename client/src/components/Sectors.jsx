@@ -30,10 +30,10 @@ export default function Sectors() {
           <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">
             Sectores de Atención
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
             ¿En qué industria opera?
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto">
             Nuestras soluciones están diseñadas y probadas en los sectores industriales de mayor exigencia operativa.
           </p>
         </div>
@@ -42,11 +42,11 @@ export default function Sectors() {
           {sectors.map((s) => (
             <div
               key={s.title}
-              className="group bg-navy-800/50 border border-white/5 rounded-2xl p-8 hover:border-brand-orange/40 transition-all duration-300 hover:-translate-y-1"
+              className="group bg-white/50 border border-orange-100 rounded-2xl p-8 hover:border-brand-orange/40 transition-all duration-300 hover:-translate-y-1"
             >
               <div className="text-5xl mb-6">{s.icon}</div>
-              <h3 className="text-xl font-bold text-white mb-3">{s.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">{s.description}</p>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">{s.title}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-6">{s.description}</p>
               <div className="flex flex-wrap gap-2">
                 {s.tags.map((tag) => (
                   <span

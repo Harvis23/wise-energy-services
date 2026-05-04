@@ -31,10 +31,10 @@ export default function About() {
             <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">
               Quiénes Somos
             </p>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-6 leading-tight">
               Ingeniería con Visión Estratégica
             </h2>
-            <p className="text-gray-400 leading-relaxed mb-8">
+            <p className="text-gray-600 leading-relaxed mb-8">
               Somos una empresa dedicada a la prestación de servicios industriales que combina experiencia técnica con una gestión de procesos eficiente. Nuestro modelo de trabajo integra tecnología de punta con talento humano especializado para garantizar resultados medibles en cada proyecto.
             </p>
             <a
@@ -55,8 +55,8 @@ export default function About() {
                     <Icon size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold mb-1">{v.title}</h4>
-                    <p className="text-gray-400 text-sm leading-relaxed">{v.description}</p>
+                    <h4 className="text-gray-800 font-bold mb-1">{v.title}</h4>
+                    <p className="text-gray-600 text-sm leading-relaxed">{v.description}</p>
                   </div>
                 </div>
               )

@@ -84,14 +84,14 @@ function ServiceCard({ service }) {
         onClick={() => setOpen(!open)}
       >
         <div className="flex items-center gap-4">
-          <div className={`p-3 rounded-xl bg-navy-900/60 ${service.iconColor}`}>
+          <div className={`p-3 rounded-xl bg-white/70 ${service.iconColor}`}>
             <Icon size={22} />
           </div>
           <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-0.5">
+            <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-0.5">
               {service.subtitle}
             </p>
-            <h3 className="text-lg font-bold text-white">{service.title}</h3>
+            <h3 className="text-lg font-bold text-gray-800">{service.title}</h3>
           </div>
         </div>
         <ChevronDown
@@ -103,9 +103,9 @@ function ServiceCard({ service }) {
       {open && (
         <div className="px-6 pb-6 grid sm:grid-cols-2 gap-4">
           {service.items.map((item) => (
-            <div key={item.heading} className="bg-navy-900/50 rounded-xl p-4 border border-white/5">
+            <div key={item.heading} className="bg-white/60 rounded-xl p-4 border border-orange-100">
               <p className={`text-sm font-semibold mb-1 ${service.iconColor}`}>{item.heading}</p>
-              <p className="text-sm text-gray-400 leading-relaxed">{item.detail}</p>
+              <p className="text-sm text-gray-600 leading-relaxed">{item.detail}</p>
             </div>
           ))}
         </div>
@@ -122,10 +122,10 @@ export default function Services() {
           <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">
             Nuestras Soluciones
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
             Cobertura Integral para la Industria
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto">
             Cuatro áreas de especialización que cubren el ciclo completo de operaciones industriales, desde la extracción hasta la gestión digital de activos.
           </p>
         </div>

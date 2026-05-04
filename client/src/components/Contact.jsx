@@ -38,10 +38,10 @@ export default function Contact() {
           <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">
             Contacto
           </p>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
             Solicite una Evaluación Técnica
           </h2>
-          <p className="text-gray-400 max-w-xl mx-auto">
+          <p className="text-gray-600 max-w-xl mx-auto">
             ¿Tiene un proyecto en mente o necesita un plan de mantenimiento? Cuéntenos y nuestro equipo lo contactará a la brevedad.
           </p>
         </div>
@@ -50,15 +50,15 @@ export default function Contact() {
           {/* Contact info */}
           <div className="md:col-span-2 flex flex-col gap-8">
             <div>
-              <h3 className="text-white font-bold text-lg mb-6">Información de Contacto</h3>
+              <h3 className="text-gray-800 font-bold text-lg mb-6">Información de Contacto</h3>
               <div className="flex flex-col gap-5">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-brand-orange/10 border border-brand-orange/20 flex items-center justify-center text-brand-orange flex-shrink-0">
                     <MapPin size={18} />
                   </div>
                   <div>
-                    <p className="text-white text-sm font-medium">Oficinas</p>
-                    <p className="text-gray-400 text-sm">Caracas, Venezuela</p>
+                    <p className="text-gray-800 text-sm font-medium">Oficinas</p>
+                    <p className="text-gray-600 text-sm">Caracas, Venezuela</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -66,8 +66,8 @@ export default function Contact() {
                     <Phone size={18} />
                   </div>
                   <div>
-                    <p className="text-white text-sm font-medium">Teléfono</p>
-                    <p className="text-gray-400 text-sm">Venezuela & USA</p>
+                    <p className="text-gray-800 text-sm font-medium">Teléfono</p>
+                    <p className="text-gray-600 text-sm">Venezuela & USA</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -75,8 +75,8 @@ export default function Contact() {
                     <Mail size={18} />
                   </div>
                   <div>
-                    <p className="text-white text-sm font-medium">Email</p>
-                    <p className="text-gray-400 text-sm">info@wiseenergyservices.com</p>
+                    <p className="text-gray-800 text-sm font-medium">Email</p>
+                    <p className="text-gray-600 text-sm">info@wiseenergyservices.com</p>
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function Contact() {
 
             <div className="bg-brand-orange/10 border border-brand-orange/20 rounded-2xl p-6">
               <p className="text-brand-orange font-semibold text-sm mb-2">Respuesta en 24 horas</p>
-              <p className="text-gray-400 text-sm leading-relaxed">
+              <p className="text-gray-600 text-sm leading-relaxed">
                 Nuestro equipo técnico revisará su solicitud y le enviará una propuesta preliminar dentro de las próximas 24 horas hábiles.
               </p>
             </div>
@@ -98,8 +98,8 @@ export default function Contact() {
                   <div className="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mx-auto mb-4">
                     <Send size={24} />
                   </div>
-                  <h3 className="text-white text-xl font-bold mb-2">¡Solicitud Enviada!</h3>
-                  <p className="text-gray-400 text-sm">
+                  <h3 className="text-gray-800 text-xl font-bold mb-2">¡Solicitud Enviada!</h3>
+                  <p className="text-gray-600 text-sm">
                     Nos pondremos en contacto con usted en las próximas 24 horas.
                   </p>
                 </div>
@@ -108,26 +108,26 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm text-gray-400 mb-1.5">Nombre *</label>
+                    <label className="block text-sm text-gray-700 mb-1.5">Nombre *</label>
                     <input
                       type="text"
                       name="name"
                       required
                       value={form.name}
                       onChange={handleChange}
-                      className="w-full bg-navy-800/60 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brand-orange transition-colors"
+                      className="w-full bg-white/70 border border-orange-200 rounded-lg px-4 py-3 text-gray-800 text-sm placeholder-gray-400 focus:outline-none focus:border-brand-orange transition-colors"
                       placeholder="Su nombre completo"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm text-gray-400 mb-1.5">Empresa *</label>
+                    <label className="block text-sm text-gray-700 mb-1.5">Empresa *</label>
                     <input
                       type="text"
                       name="company"
                       required
                       value={form.company}
                       onChange={handleChange}
-                      className="w-full bg-navy-800/60 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brand-orange transition-colors"
+                      className="w-full bg-white/70 border border-orange-200 rounded-lg px-4 py-3 text-gray-800 text-sm placeholder-gray-400 focus:outline-none focus:border-brand-orange transition-colors"
                       placeholder="Nombre de su empresa"
                     />
                   </div>
@@ -135,25 +135,25 @@ export default function Contact() {
 
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm text-gray-400 mb-1.5">Correo Electrónico *</label>
+                    <label className="block text-sm text-gray-700 mb-1.5">Correo Electrónico *</label>
                     <input
                       type="email"
                       name="email"
                       required
                       value={form.email}
                       onChange={handleChange}
-                      className="w-full bg-navy-800/60 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brand-orange transition-colors"
+                      className="w-full bg-white/70 border border-orange-200 rounded-lg px-4 py-3 text-gray-800 text-sm placeholder-gray-400 focus:outline-none focus:border-brand-orange transition-colors"
                       placeholder="correo@empresa.com"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm text-gray-400 mb-1.5">Teléfono</label>
+                    <label className="block text-sm text-gray-700 mb-1.5">Teléfono</label>
                     <input
                       type="tel"
                       name="phone"
                       value={form.phone}
                       onChange={handleChange}
-                      className="w-full bg-navy-800/60 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brand-orange transition-colors"
+                      className="w-full bg-white/70 border border-orange-200 rounded-lg px-4 py-3 text-gray-800 text-sm placeholder-gray-400 focus:outline-none focus:border-brand-orange transition-colors"
                       placeholder="+1 (000) 000-0000"
                     />
                   </div>
@@ -166,11 +166,11 @@ export default function Contact() {
                     required
                     value={form.service}
                     onChange={handleChange}
-                    className="w-full bg-navy-800/60 border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors text-white"
+                    className="w-full bg-white/70 border border-orange-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors text-gray-800"
                   >
-                    <option value="" className="bg-navy-900 text-gray-400">Seleccione una opción</option>
+                    <option value="">Seleccione una opción</option>
                     {serviceOptions.map((o) => (
-                      <option key={o} value={o} className="bg-navy-900">{o}</option>
+                      <option key={o} value={o}>{o}</option>
                     ))}
                   </select>
                 </div>
@@ -183,7 +183,7 @@ export default function Contact() {
                     rows={5}
                     value={form.message}
                     onChange={handleChange}
-                    className="w-full bg-navy-800/60 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-brand-orange transition-colors resize-none"
+                    className="w-full bg-white/70 border border-orange-200 rounded-lg px-4 py-3 text-gray-800 text-sm placeholder-gray-400 focus:outline-none focus:border-brand-orange transition-colors resize-none"
                     placeholder="Describa brevemente su proyecto, equipo, o el plan de servicio que necesita..."
                   />
                 </div>
