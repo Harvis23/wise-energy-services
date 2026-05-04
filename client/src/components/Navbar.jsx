@@ -31,7 +31,7 @@ export default function Navbar() {
           <img
             src="https://img1.wsimg.com/isteam/ip/00b60a24-ee4e-4957-980a-bcef21bf40a9/Logo-Wise-E-Color.png"
             alt="Wise Energy Services"
-            className="h-12 object-contain"
+            className="h-20 object-contain"
           />
         </a>
 

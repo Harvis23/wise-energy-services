@@ -8,7 +8,7 @@ export default function Footer() {
           <img
             src="https://img1.wsimg.com/isteam/ip/00b60a24-ee4e-4957-980a-bcef21bf40a9/Logo-Wise-E-Color.png"
             alt="Wise Energy Services"
-            className="h-10 object-contain"
+            className="h-16 object-contain"
           />
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             {['#inicio', '#soluciones', '#sectores', '#marcas', '#nosotros', '#contacto'].map(
