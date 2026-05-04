@@ -29,9 +29,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
         <a href="#inicio">
           <img
-            src="https://img1.wsimg.com/isteam/ip/00b60a24-ee4e-4957-980a-bcef21bf40a9/Logo-Wise-E-Color.png"
+            src={`${import.meta.env.BASE_URL}logo.jpg`}
             alt="Wise Energy Services"
             className="h-20 object-contain"
+            style={{ mixBlendMode: 'multiply' }}
           />
         </a>
 
