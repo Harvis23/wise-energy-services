@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-navy-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+        scrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
@@ -41,7 +41,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-gray-300 hover:text-brand-orange transition-colors"
+              className="text-sm font-medium text-gray-600 hover:text-brand-orange transition-colors"
             >
               {l.label}
             </a>
@@ -71,7 +71,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-gray-300 hover:text-brand-orange transition-colors"
+              className="text-sm font-medium text-gray-600 hover:text-brand-orange transition-colors"
               onClick={() => setOpen(false)}
             >
               {l.label}
