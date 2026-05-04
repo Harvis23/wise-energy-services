@@ -6,10 +6,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
           <img
-            src={`${import.meta.env.BASE_URL}logo.jpg`}
+            src="https://img1.wsimg.com/isteam/ip/00b60a24-ee4e-4957-980a-bcef21bf40a9/Logo-Wise-E-Color.png"
             alt="Wise Energy Services"
             className="h-16 object-contain"
-            style={{ mixBlendMode: 'lighten' }}
           />
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             {['#inicio', '#soluciones', '#sectores', '#marcas', '#nosotros', '#contacto'].map(
