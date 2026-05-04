@@ -29,13 +29,13 @@ export default function Hero() {
           Oil & Gas · Energía Eléctrica · Minería · Industria 4.0
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+        <h1 className="font-display text-4xl md:text-6xl font-light text-white leading-tight tracking-wide mb-6">
           Ingeniería de Vanguardia y{' '}
-          <span className="text-brand-orange">Soluciones Tecnológicas</span>{' '}
+          <span className="text-brand-orange font-light italic">Soluciones Tecnológicas</span>{' '}
           para la Industria Energética
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-6 leading-relaxed">
+        <p className="font-body text-base md:text-lg text-gray-400 font-light max-w-3xl mx-auto mb-6 leading-loose tracking-wide">
           Fusionamos servicios técnicos especializados con herramientas de IoT,
           Análisis de Datos y Monitoreo Remoto para garantizar la continuidad
           operativa de sus activos.
