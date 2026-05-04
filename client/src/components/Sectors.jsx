@@ -24,7 +24,7 @@ const sectors = [
 
 export default function Sectors() {
   return (
-    <section id="sectores" className="bg-[#060e1c] py-24 px-6">
+    <section id="sectores" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">

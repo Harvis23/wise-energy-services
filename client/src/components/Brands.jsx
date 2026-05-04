@@ -23,7 +23,7 @@ const pillars = [
 
 export default function Brands() {
   return (
-    <section id="marcas" className="bg-navy-900 py-24 px-6">
+    <section id="marcas" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-brand-orange text-sm font-semibold uppercase tracking-widest mb-3">

@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <>
+    <div className="bg-gradient-to-b from-orange-100 via-amber-50 to-white min-h-screen">
       <Navbar />
       <Hero />
       <Services />
@@ -18,6 +18,6 @@ export default function App() {
       <About />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }

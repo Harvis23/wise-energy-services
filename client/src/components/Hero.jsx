@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-start justify-center overflow-hidden bg-gradient-to-b from-orange-100 via-amber-50 to-white"
+      className="relative min-h-screen flex items-start justify-center overflow-hidden"
     >
       {/* Soft glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[500px] rounded-full bg-orange-200/40 blur-[100px] pointer-events-none" />
